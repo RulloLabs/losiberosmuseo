@@ -8,20 +8,22 @@ Rama: `main`
 | Repositorio | 🟢 | GitHub `main` operativo |
 | Vite | 🟢 | Configurado en `package.json` |
 | Three.js | 🟢 | Motor 3D presente |
-| Salas 3D | 🟢 | Origen, Guerreros y Ritual definidos |
+| Salas 3D | 🟢 | Antigravity: Origen, Guerreros y Ritual |
 | Postprocesado | 🟢 | Bloom + viñeta |
-| Landing | 🟢 | Implementada en `landing.js` |
-| Responsive landing | 🟢 | CSS móvil incluido |
-| Entrada landing → museo | 🟡 | Depende de `#btn-explore`; debe validarse/ajustarse |
-| Assets | 🟡 | Inventario/validación pendiente |
-| Build | 🟡 | Debe ejecutarse después de esta documentación |
-| Vercel | 🟢 | Deployment de `main` confirmado READY |
-| Producción final | 🟡 | Falta validar visualmente flujo completo |
+| Landing histórica | 🟢 | Integrada desde la referencia de Vercel |
+| Fondo landing | 🟢 | Gris neutro restaurado |
+| Entrada landing → museo | 🟢 | La landing carga antes de la experiencia inmersiva |
+| Controles táctiles | 🟢 | Joystick + arrastre para mirar + acción |
+| Mobile performance | 🟢 | DPR limitado y controles sin Pointer Lock nativo |
+| Assets | 🟡 | Inventario fino pendiente |
+| Build | 🟡 | Pendiente de validación en CI/Vercel tras los últimos cambios |
+| Vercel | 🟡 | Esperando deployment de este commit |
+| Producción final | 🟡 | Falta smoke test visual desktop + móvil |
 
-## Último estado de GitHub
+## Base de implementación
 
-`c131a145` — `Integrate premium museum landing`
+**Vercel histórico → Antigravity**. Kimi se considera referencia intermedia, no fuente final.
 
 ## Objetivo inmediato
 
-Dejar la landing y la experiencia inmersiva conectadas mediante un flujo real y verificable, sin romper la experiencia 3D existente.
+Validar build, deployment y flujo completo: landing gris → entrada → experiencia 3D → tres salas → interacción → móvil.
