@@ -1,0 +1,12 @@
+/* Historical Vercel landing: neutral grey background requested for the public landing. */
+#museum-landing{background:#b8b7b3!important;color:#171715!important}
+#museum-landing .ml-backdrop{background:radial-gradient(circle at 72% 36%,rgba(255,255,255,.28),transparent 25%),radial-gradient(circle at 22% 80%,rgba(60,55,45,.10),transparent 35%),linear-gradient(135deg,#d2d1cd 0%,#aaa9a5 55%,#c8c7c3 100%)!important}
+#museum-landing .ml-nav{background:rgba(220,219,215,.62);border-bottom-color:rgba(30,30,28,.12)}
+#museum-landing .ml-brand,#museum-landing .ml-enter,#museum-landing .ml-hero h1 em,#museum-landing .ml-section h2 em,#museum-landing .ml-experience h2 em{color:#5d4825}
+#museum-landing .ml-hero h1,#museum-landing .ml-section h2,#museum-landing .ml-experience h2{color:#1d1d1a}
+#museum-landing .ml-lead,#museum-landing .ml-text p,#museum-landing .ml-experience>p:not(.ml-kicker),#museum-landing .ml-secondary,#museum-landing .ml-nav nav a{color:rgba(25,25,22,.68)}
+#museum-landing .ml-cards article{background:rgba(245,244,240,.46);border-color:rgba(55,50,42,.18)}
+#museum-landing .ml-cards strong{color:#5d4825}
+#museum-landing .ml-footer{color:#5d4825;border-top-color:rgba(30,30,28,.14)}
+#museum-landing .ml-scroll{color:rgba(25,25,22,.45)}
+#museum-landing .ml-scroll span{background:#7b633a}
