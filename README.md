@@ -10,3 +10,6 @@ Fuente local recuperada del proyecto `museum-experience`.
 
 ## Próximo paso
 Integrar esta fuente en un repositorio GitHub y desplegarla como proyecto independiente de la web principal de Los Íberos.
+
+## Deployment
+GitHub `main` → Vercel `losiberos`: verificación de integración.
