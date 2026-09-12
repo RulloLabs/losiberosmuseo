@@ -9,23 +9,24 @@
 ### T01 — Auditar base actual
 - Estado: `VALIDATED`
 - Objetivo: conocer exactamente qué existe antes de tocar código.
-- Resultado: Vite + Three.js + GSAP; landing en `landing.js`; experiencia 3D en `main.js`.
+- Resultado: Vite + Three.js + GSAP; landing histórica en `landing.js`; experiencia 3D Antigravity en `main.js`.
 
 ### T02 — Inventariar assets
 - Estado: `TODO`
 - Objetivo: identificar modelos, texturas, imágenes, audio y fuentes realmente utilizados.
 - Validación: ninguna ruta rota y cada asset con uso identificado.
 
-### T03 — Validar entrada desde landing
-- Estado: `TODO`
-- Objetivo: garantizar que los botones de entrada llevan realmente a la experiencia 3D.
-- Base: `landing.js` elimina la landing y ejecuta `#btn-explore`.
-- Validación: clic → transición → museo visible → controles operativos.
+### T03 — Integrar landing histórica + entrada
+- Estado: `READY`
+- Objetivo: usar la referencia histórica de Vercel y conectarla con la experiencia Antigravity.
+- Implementado: `landing.js` + `landing-theme.css` + entrada a `#btn-explore`.
+- Validación pendiente: clic → transición → museo visible en desktop y móvil.
 
-### T04 — Validar tres salas
-- Estado: `TODO`
-- Objetivo: comprobar El Origen, Los Guerreros y El Ritual.
-- Validación: navegación, cámara, iluminación, fog, bloom y transición sin errores.
+### T04 — Controles táctiles + tres salas
+- Estado: `READY`
+- Objetivo: mantener las tres salas Antigravity y hacerlas navegables en móvil.
+- Implementado: joystick virtual, arrastre derecho para mirar, botón de interacción y puente para PointerLockControls.
+- Validación pendiente: movimiento, mirada, interacción y cambio de sala en dispositivo real/emulación táctil.
 
 ### T05 — Build limpio
 - Estado: `TODO`
@@ -43,8 +44,8 @@
 - Validación: Vercel `READY` + URL de producción comprobada.
 
 ### T08 — Cierre documental
-- Estado: `TODO`
-- Objetivo: actualizar `STATUS.md`, `AUDIT.md`, `ASSETS.md` e `IMPLEMENTATION.md` con el resultado real.
+- Estado: `IN PROGRESS`
+- Objetivo: mantener `STATUS.md`, `AUDIT.md`, `ASSETS.md` e `IMPLEMENTATION.md` alineados con el estado real.
 
 ## Definition of Done
 
